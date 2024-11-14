@@ -1,5 +1,6 @@
 ﻿using Interfaces.ConstructorInjectionExample;
 using Interfaces.DecoupleExample;
+using Interfaces.DependencyInjectionApp;
 using Interfaces.DependencyInjectionExample;
 using Interfaces.InterfaceDependencyExample;
 using Interfaces.InterfaceExamples;
@@ -32,7 +33,9 @@ namespace Interfaces
 
             //IndexSetterDependencyExample indexSetterDependencyExample = new IndexSetterDependencyExample();
 
-            IndexInterfaceDependencyExample indexInterfaceDependencyExample = new IndexInterfaceDependencyExample();
+            //IndexInterfaceDependencyExample indexInterfaceDependencyExample = new IndexInterfaceDependencyExample();
+
+            IndexDependencyInjectionApp app = new IndexDependencyInjectionApp();    
 
             Console.ReadKey();
         }

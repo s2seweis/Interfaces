@@ -51,6 +51,8 @@
     <Compile Include="DecoupleExample\DatabaseLogger.cs" />
     <Compile Include="DecoupleExample\FileLogger.cs" />
     <Compile Include="DecoupleExample\IndexDecoupleExample.cs" />
+    <Compile Include="DependencyInjectionApp\IndexDependencyInjectionApp.cs" />
+    <Compile Include="DependencyInjectionApp\MultiFunctionPrinter.cs" />
     <Compile Include="DependencyInjectionExample\Builder.cs" />
     <Compile Include="DependencyInjectionExample\Hammer.cs" />
     <Compile Include="DependencyInjectionExample\IndexDependencyInjectionExample.cs" />
