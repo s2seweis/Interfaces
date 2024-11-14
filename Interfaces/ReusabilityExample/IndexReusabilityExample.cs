@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Interfaces.ReusabilityExample
 {
     // It makes sense to have these interfaces in seperate files, for educational purpose they are all in one file now
-    // Always the dame structure, it always does return void and it always take one parameter which is the decimal amount
+    // Always the same structure, it always does return void and it always take one parameter which is the decimal amount
     public interface IPaymentProcessor
     {
         void ProcessPayment(decimal amount);
@@ -30,6 +30,7 @@ namespace Interfaces.ReusabilityExample
         private void IndexReusabilityExampleMethod()
         {
             // Creating an instance of `CreditCardProcessor` which implements `IPaymentProcessor`.
+            // Polymorphisim
             IPaymentProcessor creditCardProcessor = new CreditCardProcessor();
 
             // Using the `creditCardProcessor` to process a payment through the `PaymentService` class.
@@ -61,4 +62,7 @@ namespace Interfaces.ReusabilityExample
 //When:
 // Use interfaces when you have multiple classes that should provide the same functionality but might implement it differently. 
 // Real-World Example: Payment processing System 
+
+// In C# bezieht sich Polymorphismus darauf, dass eine Methode oder ein Objekt verschiedene Formen annehmen kann,
+// d.h. dieselbe Methode kann unterschiedlich implementiert werden, abhängig davon, von welchem Typ das Objekt ist, das sie aufruft.
 

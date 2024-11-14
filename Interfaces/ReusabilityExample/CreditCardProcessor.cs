@@ -1,18 +1,25 @@
-﻿using System;
+﻿// Import necessary namespaces
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Define the namespace for the class
 namespace Interfaces.ReusabilityExample
 {
-    // Always the dame structure, it always does return void and it always take one parameter which is the decimal amount
+    // "CreditCardProcessor" class implementing the "IPaymentProcessor" interface
+    // This class processes payments using credit cards
     public class CreditCardProcessor : IPaymentProcessor
     {
+        // Method to process the payment
+        // This method always returns void and takes a single decimal parameter (the payment amount)
         public void ProcessPayment(decimal amount)
         {
-            Console.WriteLine($"Processing credit card payment of {amount} ");
-            // Implement credit card payment logic.
+            // Display the payment amount being processed with a credit card
+            Console.WriteLine($"Processing credit card payment of {amount}");
+
+            // Placeholder for the actual credit card payment logic
         }
     }
 }

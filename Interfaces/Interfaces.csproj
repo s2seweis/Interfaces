@@ -43,20 +43,46 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConstructorDependencyExample\Builder.cs" />
+    <Compile Include="ConstructorDependencyExample\Hammer.cs" />
+    <Compile Include="ConstructorDependencyExample\IndexConstructorDependencyExample.cs" />
+    <Compile Include="ConstructorDependencyExample\Saw.cs" />
+    <Compile Include="DecoupleExample\Application.cs" />
+    <Compile Include="DecoupleExample\DatabaseLogger.cs" />
+    <Compile Include="DecoupleExample\FileLogger.cs" />
+    <Compile Include="DecoupleExample\IndexDecoupleExample.cs" />
+    <Compile Include="DependencyInjectionExample\Builder.cs" />
+    <Compile Include="DependencyInjectionExample\Hammer.cs" />
+    <Compile Include="DependencyInjectionExample\IndexDependencyInjectionExample.cs" />
+    <Compile Include="DependencyInjectionExample\Saw.cs" />
+    <Compile Include="InterfaceDependencyExample\Builder.cs" />
+    <Compile Include="InterfaceDependencyExample\Hammer.cs" />
+    <Compile Include="InterfaceDependencyExample\IndexInterfaceDependencyExample.cs" />
+    <Compile Include="InterfaceDependencyExample\Saw.cs" />
     <Compile Include="InterfaceExample\Animal.cs" />
     <Compile Include="InterfaceExample\Cat.cs" />
     <Compile Include="InterfaceExample\Dog.cs" />
     <Compile Include="InterfaceExample\IndexInterfaceExamples.cs" />
+    <Compile Include="LogExample\IndexLogExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReusabilityExample\CreditCardProcessor.cs" />
     <Compile Include="ReusabilityExample\IndexReusabilityExample.cs" />
     <Compile Include="ReusabilityExample\PaymentService.cs" />
     <Compile Include="ReusabilityExample\PaypalProcessor.cs" />
+    <Compile Include="SetterDependencyExample\Builder.cs" />
+    <Compile Include="SetterDependencyExample\Hammer.cs" />
+    <Compile Include="SetterDependencyExample\IndexSetterDependencyExample.cs" />
+    <Compile Include="SetterDependencyExample\Saw.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Content Include="DecoupleExample\Logs\log.txt" />
+    <Content Include="LogExample\Logs\log.txt" />
+    <Content Include="ReusabilityExample\Assets\Illustration.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

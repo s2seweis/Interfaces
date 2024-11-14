@@ -1,5 +1,11 @@
-﻿using Interfaces.InterfaceExamples;
+﻿using Interfaces.ConstructorInjectionExample;
+using Interfaces.DecoupleExample;
+using Interfaces.DependencyInjectionExample;
+using Interfaces.InterfaceDependencyExample;
+using Interfaces.InterfaceExamples;
+using Interfaces.LogExample;
 using Interfaces.ReusabilityExample;
+using Interfaces.SetterDependencyExample;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +20,19 @@ namespace Interfaces
         {
             //IndexInterfaceExamples indexInterfaceExamples = new IndexInterfaceExamples();
 
-            IndexReusabilityExample indexReusabilityExample = new IndexReusabilityExample();
+            //IndexReusabilityExample indexReusabilityExample = new IndexReusabilityExample();
+
+            //IndexLogExample indexLogExample = new IndexLogExample();
+
+            //IndexDecoupleExample indexDecoupleExample = new IndexDecoupleExample();
+
+            //IndexDependencyInjectionExample indexDependencyInjectionExample = new IndexDependencyInjectionExample();
+
+            //IndexConstructorDependencyExample indexConstructorDependencyExample = new IndexConstructorDependencyExample();
+
+            //IndexSetterDependencyExample indexSetterDependencyExample = new IndexSetterDependencyExample();
+
+            IndexInterfaceDependencyExample indexInterfaceDependencyExample = new IndexInterfaceDependencyExample();
 
             Console.ReadKey();
         }
